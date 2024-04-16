@@ -1,0 +1,18 @@
+[package]
+name = "fyri"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.7.5"
+axum-extra = "0.9.3"
+fe2o3-amqp = "0.10.0"
+redis = "0.25.3"
+serde = "1.0.197"
+serde_json = "1.0.115"
+sqlx = "0.7.4"
+tokio = {version = "1.37.0", features = ["rt-multithread"]}
+tonic = "0.11.0"
+tower-http = "0.5.2"
